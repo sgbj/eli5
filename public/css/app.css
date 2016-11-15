@@ -1,0 +1,12 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro);
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2em;
+  color: #3f3f3f;
+}
+
+.CodeMirror {
+  font-family: "Source Code Pro", monospace;
+}

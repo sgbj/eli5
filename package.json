@@ -1,0 +1,24 @@
+{
+  "name": "eli5",
+  "version": "0.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "express": "~4.13.3",
+    "jade": "~1.11.0",
+    "mongoose": "~4.1.9",
+    "body-parser": "~1.14.1",
+    "underscore": "~1.8.3"
+  },
+  "devDependencies": {
+    "gulp-bower": "0.0.10",
+    "gulp": "~3.9.0",
+    "gulp-nodemon": "~2.0.4"
+  }
+}
