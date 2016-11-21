@@ -1,13 +1,15 @@
-var mongoose = require("mongoose");
+'use strict';
 
-var entrySchema = mongoose.Schema({
+const mongoose = require('mongoose');
+
+const entrySchema = mongoose.Schema({
   name: String,
-  content: String,
   type: String,
   path: String,
-  lastUpdate: Date
+  lastUpdate: Date,
+  content: String
 });
 
-var Entry = mongoose.model("Entry", entrySchema);
+const Entry = mongoose.model('Entry', entrySchema);
 
 module.exports = Entry;
